@@ -1,43 +1,47 @@
+
 # 🚀 MOH – Motor de Orientação de Habilidades  
 ### Dynamic Programming • Simulação • Grafos • Otimização
 
 📌 Sumário
-- Sobre o Projeto
-- Integrantes
-- Contexto Acadêmico
-- Arquitetura e Modelagem
-- Metodologia e Técnicas Utilizadas
-- Resultados Experimentais
-- Estrutura do Repositório
-- Como Executar
-- Relatório PDF
+- 📘 Sobre o Projeto
+- 👥 Integrantes
+- 🧠 Contexto Acadêmico
+- 🧱 Arquitetura e Modelagem
+- 🧪 Metodologia e Técnicas Utilizadas
+- 📈 Resultados Experimentais
+- 🗂 Estrutura do Repositório
+- ⚙️ Como Executar
+- 📄 Relatório PDF
 
 --------------------------------------------------------------------
 
 📘 Sobre o Projeto
-O MOH – Motor de Orientação de Habilidades é uma plataforma que usa:
+O MOH – Motor de Orientação de Habilidades é uma solução que utiliza:
 - Dynamic Programming
 - Grafos
-- Monte Carlo
+- Simulação Monte Carlo
 - Heurísticas
 - Merge Sort
 - Recomendações baseadas em valor esperado
 
-para gerar planos de estudo ótimos considerando:
-tempo, complexidade, valor, dependências e projeções.
+Para gerar planos de estudo ótimos respeitando dependências, tempo, complexidade e tendências futuras.
 
 --------------------------------------------------------------------
 
 👥 Integrantes
-Arthur Fellipe Estevão da Silva – RM553320
-Eduardo Pires Escudero – RM556527
-Leonardo Munhoz Prado – RM556824
+Arthur Fellipe Estevão da Silva – RM553320  
+Eduardo Pires Escudero – RM556527  
+Leonardo Munhoz Prado – RM556824  
 
 --------------------------------------------------------------------
 
 🧠 Contexto Acadêmico
-Projeto da Global Solution (FIAP) envolvendo:
-estruturas de dados, algoritmos, modelagem e análise experimental.
+Projeto desenvolvido para a Global Solution – Engenharia de Software (FIAP), cobrindo:
+- Estruturas de dados
+- Algoritmos
+- Simulação
+- Programação Dinâmica
+- Modelagem computacional
 
 --------------------------------------------------------------------
 
@@ -46,88 +50,92 @@ estruturas de dados, algoritmos, modelagem e análise experimental.
 Modelagem por grafo:
 Cada skill contém valor, tempo, complexidade e pré-requisitos.
 
-Principais estruturas:
-Skill
-SkillGraph
-solve_deterministic_exaustivo()
-simulate_monte_carlo()
-merge_sort_skills()
-recomendar_proximas_habilidades()
+Principais módulos:
+Skill  
+SkillGraph  
+solve_deterministic_exaustivo()  
+simulate_monte_carlo()  
+merge_sort_skills()  
+recomendar_proximas_habilidades()  
 
 --------------------------------------------------------------------
 
 🧪 Metodologia e Técnicas Utilizadas
 
-1. Seleção ótima (DP/força bruta)
-   Avaliação de 4096 subconjuntos.
+1️⃣ Seleção ótima (DP / força bruta)  
+Avaliação de 4096 subconjuntos.
 
-2. Monte Carlo
-   200 cenários com variação de ±10%.
+2️⃣ Simulação Monte Carlo  
+200 cenários, variação ±10%.
 
-3. Ordens críticas
-   120 sequências válidas.
+3️⃣ Ordens críticas  
+120 ordens válidas avaliadas.
 
-4. Guloso vs ótimo
-   Comparação de adaptabilidade e tempo.
+4️⃣ Comparação guloso vs ótimo  
+Análise de eficiência e adaptabilidade.
 
-5. Merge Sort
-   Sprint A (menos complexas)
-   Sprint B (mais complexas)
+5️⃣ Merge Sort  
+Divisão entre Sprint A (menos complexas) e Sprint B (mais complexas).
 
-6. Recomendações
-   Baseadas em valor esperado com incerteza.
+6️⃣ Recomendações  
+Com base em valor esperado e pré-requisitos atendidos.
 
 --------------------------------------------------------------------
 
 📈 Resultados Experimentais
 
-Seleção ótima:
-Melhor valor: 99.0
-Tempo total: 345h
-Complexidade total: 26
-Conjunto ótimo: S1, S2, S3, S4, S5, S6, S8
+🔵 Seleção ótima  
+Melhor valor: 99.0  
+Tempo total: 345h  
+Complexidade total: 26  
+Conjunto ótimo: S1, S2, S3, S4, S5, S6, S8  
 
-Monte Carlo:
-Valor médio: 99.7498
-Desvio padrão: 2.3055
-Top soluções incluíram S1–S8 e H11.
+🟣 Monte Carlo  
+Valor médio: 99.7498  
+Desvio padrão: 2.3055  
 
-Ordens críticas:
-Top 3 ordens alcançaram valor 127.
+🔴 Ordens críticas  
+Valor máximo: 127  
+Top ordens: S3 → S5 → S7 → S9 → S8  
 
-Guloso:
-S2, S1 → adaptabilidade = 18.0
+🟢 Guloso vs Ótimo  
+Guloso: S2, S1  
+Ótimo: —  
 
-Recomendações:
-S8, S6, S4
+🟡 Sprints  
+Sprint A: S2, S1, S4, S6, S3, S9  
+Sprint B: S5, S7, H10, S8, H11, H12  
+
+🟦 Recomendações  
+Baseado nas skills atuais: S1, S2, S3, S5  
+Recomendadas: S8, S6, S4  
 
 --------------------------------------------------------------------
 
 🗂 Estrutura do Repositório
 
-projeto-MOH/
- ├─ MOH_notebook.ipynb
- ├─ Relatorio_MOH_Profissional.pdf
- ├─ skills_base.csv
- ├─ images/
- │   └─ montecarlo.png
- ├─ README.md
- └─ LICENSE (opcional)
+GS_DynamicProgamming/  
+ ├─ MOH.ipynb  
+ ├─ Relatorio_MOH.pdf  
+ ├─ skills_base.csv  
+ └─ README.md  
 
 --------------------------------------------------------------------
 
 ⚙️ Como Executar
 
-1. Clonar repositório:
-git clone https://github.com/seuusuario/moh-projeto.git
+1️⃣ Clonar o repositório  
+git clone https://github.com/duduescudero/GS_DynamicProgamming.git
 
-2. Abrir no Google Colab:
-Enviar notebook + CSV.
+2️⃣ Abrir no Google Colab  
+Enviar MOH.ipynb  
+Enviar skills_base.csv  
+Executar células  
 
-3. Gerar PDF:
-Executar célula automática no final do notebook.
+3️⃣ Gerar PDF  
+Executar célula final do notebook.
 
 --------------------------------------------------------------------
 
-📄 Relatório PDF
-Local: /Relatorio_MOH_Profissional.pdf
+📄 Relatório PDF  
+Arquivo: Relatorio_MOH.pdf
