@@ -139,3 +139,18 @@ Executar célula final do notebook.
 
 📄 Relatório PDF  
 Arquivo: Relatorio_MOH.pdf
+
+
+---
+
+## 🧭 Conexão com o Tema – O Futuro do Trabalho
+
+O MOH está totalmente alinhado ao tema oficial da Global Solution.  
+Ele atua como uma **plataforma de requalificação (reskilling) baseada em IA**, ajudando estudantes e profissionais 
+a planejarem trajetórias de aprendizagem inteligentes e adaptadas ao mercado do futuro.
+
+O documento “O Futuro do Trabalho” destaca elementos como IA parceira do humano, educação contínua, 
+aprendizagem personalizada, inclusão produtiva, redução de desigualdades e reskilling — todos diretamente atendidos pelo MOH.
+
+O sistema utiliza algoritmos como Dynamic Programming, Monte Carlo e heurísticas para criar trilhas de estudo 
+ótimas e personalizadas, conectando educação e tecnologia de maneira prática e eficiente, em conformidade com os ODS 4, 8 e 10.
