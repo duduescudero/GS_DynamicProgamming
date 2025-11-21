@@ -12,6 +12,7 @@
 - 🗂 Estrutura do Repositório
 - ⚙️ Como Executar
 - 📄 Relatório PDF
+- 🧭 Conexão com o Tema
 
 --------------------------------------------------------------------
 
